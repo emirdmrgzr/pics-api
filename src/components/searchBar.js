@@ -1,5 +1,5 @@
-function searchBar(){
-    return <div><searchBar/></div>
-}
-
-export default searchBar;
+function SearchBar() {
+    return <div>SearchBar</div>;
+  }
+  
+  export default SearchBar;
