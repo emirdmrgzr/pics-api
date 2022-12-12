@@ -1,12 +1,12 @@
 import { useState } from "react";
 
 function SearchBar({ onSubmit }) {
-  const [term, setTerm] = useState("");
+ const [term, setTerm] = useState("");
 
   const handleFormSubmit = (event) =>{
     event.preventDefault();
-
-    onSubmit({term});
+ 
+    onSubmit(term);
   }
 
   const handleChange = (event) =>{
@@ -20,5 +20,4 @@ function SearchBar({ onSubmit }) {
     </div>
   );
 }
-
 export default SearchBar;
