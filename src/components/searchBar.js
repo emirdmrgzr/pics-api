@@ -6,7 +6,7 @@ function SearchBar({ onSubmit }) {
   const handleFormSubmit = (event) =>{
     event.preventDefault();
 
-    onSubmit({term}.value);
+    onSubmit({term});
   }
 
   const handleChange = (event) =>{
